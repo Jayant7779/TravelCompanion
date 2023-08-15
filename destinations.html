@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travel Companion - Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Add your custom CSS here */
+        .destination-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .destination-card {
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .destination-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .destination-card h3 {
+            margin: 0;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .destination-card p {
+            margin: 0;
+            padding: 10px;
+        }
+        .destination-card a {
+            display:block; 
+			text-align:center; 
+			text-decoration:none; 
+			color:white; 
+			background-color:#333; 
+			padding :10px
+		}
+		.destination-content{
+			display:none; 
+			padding :10px
+		}
+		.map{
+			width :100%; 
+			height :300px
+		}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Travel Companion</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="socialize.html">Socialize</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Destinations</h2>
+        <p>Explore our top travel destinations and plan your next adventure.</p>
+
+        <!-- Add content here -->
+        
+        <!-- Display some destinations -->
+        <div class="destination-list">
+            
+           <!-- Example destination card -->
+           <div class="destination-card">
+               <img src="https://source.unsplash.com/300x200/?paris" alt="Paris photo">
+               <h3>Paris</h3>
+               <p>The city of lights, romance, and culture.</p>
+               <a href="#" onclick="toggleDestinationContent(this)">View More</a>
+
+               <!-- Destination content -->
+               <div class="destination-content">
+                   <!-- Add destination content here -->
+                   <p>Paris is one of the most popular and visited cities in the world. It offers a rich history, stunning architecture, world-class museums, and gastronomic delights. Whether you want to admire the Eiffel Tower, stroll along the Seine, visit the Louvre, or enjoy a croissant at a sidewalk cafe, Paris has something for everyone.</p>
+
+                   <!-- Add a map of the destination -->
+                   <iframe class="map" src="[13](https://www.google.com/maps/embed/v1/)" allowfullscreen></iframe>
+
+                   <!-- Add a list of hotels near the destination -->
+                   <h4>Hotels near Paris</h4>
+                   <ul>
+                       <!-- Example hotel -->
+                       <li><a href="14">Ritz Paris</a>: A luxury hotel in the heart of Paris, offering elegant rooms, a Michelin-starred restaurant, and a spa.</li>
+
+                       <!-- Add more hotels here -->
+
+                   </ul>
+
+               </div>
+
+           </div>
+           <div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?delhi" alt="Delhi photo">
+            <h3>Delhi</h3>
+            <p>The city of lights, romance, and culture.</p>
+            <a href="#" onclick="toggleDestinationContent(this)">View More</a>
+
+            <!-- Destination content -->
+            <div class="destination-content">
+                <!-- Add destination content here -->
+                <p>Paris is one of the most popular and visited cities in the world. It offers a rich history, stunning architecture, world-class museums, and gastronomic delights. Whether you want to admire the Eiffel Tower, stroll along the Seine, visit the Louvre, or enjoy a croissant at a sidewalk cafe, Paris has something for everyone.</p>
+
+                <!-- Add a map of the destination -->
+                <iframe class="map" src="[13](https://www.google.com/maps/embed/v1/)" allowfullscreen></iframe>
+
+                <!-- Add a list of hotels near the destination -->
+                <h4>Hotels near Paris</h4>
+                <ul>
+                    <!-- Example hotel -->
+                    <li><a href="14">Ritz Paris</a>: A luxury hotel in the heart of Paris, offering elegant rooms, a Michelin-starred restaurant, and a spa.</li>
+
+                    <!-- Add more hotels here -->
+
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?mumbai" alt="Mumbai photo">
+            <h3>Mumbai</h3>
+            <p>The city of lights, romance, and culture.</p>
+            <a href="#" onclick="toggleDestinationContent(this)">View More</a>
+
+            <!-- Destination content -->
+            <div class="destination-content">
+                <!-- Add destination content here -->
+                <p>Paris is one of the most popular and visited cities in the world. It offers a rich history, stunning architecture, world-class museums, and gastronomic delights. Whether you want to admire the Eiffel Tower, stroll along the Seine, visit the Louvre, or enjoy a croissant at a sidewalk cafe, Paris has something for everyone.</p>
+
+                <!-- Add a map of the destination -->
+                <iframe class="map" src="[13](https://www.google.com/maps/embed/v1/)" allowfullscreen></iframe>
+
+                <!-- Add a list of hotels near the destination -->
+                <h4>Hotels near Paris</h4>
+                <ul>
+                    <!-- Example hotel -->
+                    <li><a href="14">Ritz Paris</a>: A luxury hotel in the heart of Paris, offering elegant rooms, a Michelin-starred restaurant, and a spa.</li>
+
+                    <!-- Add more hotels here -->
+
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?tokyo" alt="Tokyo photo">
+            <h3>Tokyo</h3>
+            <p>The city of lights, romance, and culture.</p>
+            <a href="#" onclick="toggleDestinationContent(this)">View More</a>
+
+            <!-- Destination content -->
+            <div class="destination-content">
+                <!-- Add destination content here -->
+                <p>Paris is one of the most popular and visited cities in the world. It offers a rich history, stunning architecture, world-class museums, and gastronomic delights. Whether you want to admire the Eiffel Tower, stroll along the Seine, visit the Louvre, or enjoy a croissant at a sidewalk cafe, Paris has something for everyone.</p>
+
+                <!-- Add a map of the destination -->
+                <iframe class="map" src="[13](https://www.google.com/maps/embed/v1/)" allowfullscreen></iframe>
+
+                <!-- Add a list of hotels near the destination -->
+                <h4>Hotels near Paris</h4>
+                <ul>
+                    <!-- Example hotel -->
+                    <li><a href="14">Ritz Paris</a>: A luxury hotel in the heart of Paris, offering elegant rooms, a Michelin-starred restaurant, and a spa.</li>
+
+                    <!-- Add more hotels here -->
+
+                </ul>
+
+            </div>
+
+        </div><div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?newyork" alt="newyork photo">
+            <h3>NewYork</h3>
+            <p>The city of lights, romance, and culture.</p>
+            <a href="#" onclick="toggleDestinationContent(this)">View More</a>
+
+            <!-- Destination content -->
+            <div class="destination-content">
+                <!-- Add destination content here -->
+                <p>Paris is one of the most popular and visited cities in the world. It offers a rich history, stunning architecture, world-class museums, and gastronomic delights. Whether you want to admire the Eiffel Tower, stroll along the Seine, visit the Louvre, or enjoy a croissant at a sidewalk cafe, Paris has something for everyone.</p>
+
+                <!-- Add a map of the destination -->
+                <iframe class="map" src="[13](https://www.google.com/maps/embed/v1/)" allowfullscreen></iframe>
+
+                <!-- Add a list of hotels near the destination -->
+                <h4>Hotels near Paris</h4>
+                <ul>
+                    <!-- Example hotel -->
+                    <li><a href="14">Ritz Paris</a>: A luxury hotel in the heart of Paris, offering elegant rooms, a Michelin-starred restaurant, and a spa.</li>
+
+                    <!-- Add more hotels here -->
+
+                </ul>
+
+            </div>
+
+        </div><div class="destination-card">
+            <img src="https://source.unsplash.com/300x200/?london" alt="london photo">
+            <h3>London</h3>
+            <p>The city of lights, romance, and culture.</p>
+            <a href="#" onclick="toggleDestinationContent(this)">View More</a>
+
+            <!-- Destination content -->
+            <div class="destination-content">
+                <!-- Add destination content here -->
+                <p>Paris is one of the most popular and visited cities in the world. It offers a rich history, stunning architecture, world-class museums, and gastronomic delights. Whether you want to admire the Eiffel Tower, stroll along the Seine, visit the Louvre, or enjoy a croissant at a sidewalk cafe, Paris has something for everyone.</p>
+
+                <!-- Add a map of the destination -->
+                <iframe class="map" src="[13](https://www.google.com/maps/embed/v1/)" allowfullscreen></iframe>
+
+                <!-- Add a list of hotels near the destination -->
+                <h4>Hotels near Paris</h4>
+                <ul>
+                    <!-- Example hotel -->
+                    <li><a href="14">Ritz Paris</a>: A luxury hotel in the heart of Paris, offering elegant rooms, a Michelin-starred restaurant, and a spa.</li>
+
+                    <!-- Add more hotels here -->
+
+                </ul>
+
+            </div>
+
+        </div>
+
+           <!-- Add more destination cards here -->
+
+       </div>
+
+    </section>
+
+    <!-- Add JavaScript here -->
+    <script>
+
+       // Toggle destination content
+       function toggleDestinationContent(element) {
+           var destinationContent = element.nextElementSibling;
+           if (destinationContent.style.display === "none") {
+               destinationContent.style.display = "block";
+           } else {
+               destinationContent.style.display = "none";
+           }
+       }
+
+    </script>
+
+</body>
+</html>
+
